@@ -34,6 +34,9 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ## Util
 [SwiftDate](https://github.com/malcommac/SwiftDate)
 
+## 加密
+[CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
+
 ## Debug
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
 
