@@ -36,6 +36,8 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 
 ###[MonkeyKing](https://github.com/nixzhu/MonkeyKing)
 
+###[EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)
+
 ###[R.swift](https://github.com/mac-cain13/R.swift)
 
 ## 加密
