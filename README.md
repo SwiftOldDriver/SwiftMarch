@@ -14,6 +14,8 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ## 网络
  [Alamofire](https://github.com/Alamofire/Alamofire)
 
+ [Moya](https://github.com/Moya/Moya)
+
 ## Json解析
 ###[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
@@ -31,6 +33,10 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ## UI
 [Reusable](https://github.com/AliSoftware/Reusable)
 
+[Spring](https://github.com/MengTo/Spring)
+
+[MaterialKit](https://github.com/nghialv/MaterialKit)
+
 ## Util
 ###[SwiftDate](https://github.com/malcommac/SwiftDate)
 
@@ -40,11 +46,23 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 
 ###[R.swift](https://github.com/mac-cain13/R.swift)
 
+###[PromiseKit](https://github.com/mxcl/PromiseKit)
+
+###[SwiftLint](https://github.com/realm/SwiftLint)
+
+###[SQLite.swif](https://github.com/stephencelis/SQLite.swift)
+
+###[AudioKit](https://github.com/audiokit/AudioKit)
+
+###[ExSwift](https://github.com/pNre/ExSwift)
+
 ## 加密
 [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
 
 ## Debug
 [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
+
+[netfox](https://github.com/kasketis/netfox)
 
 ## 自动化
 [Fastlane](https://github.com/fastlane/fastlane)
@@ -54,8 +72,17 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 
 ###[RxSwift](https://github.com/ReactiveX/RxSwift)
 
+###[Swiftz](https://github.com/typelift/Swiftz)
+
 ## 代码分析
 [SwiftLint](https://github.com/realm/SwiftLint)
+
+## Server
+[Perfect](https://github.com/PerfectlySoft/Perfect)
+
+[vapor](https://github.com/vapor/vapor)
+
+[Kitura](https://github.com/IBM-Swift/Kitura)
 
 # thanks
 [awesome-ios](https://github.com/vsouza/awesome-ios)
