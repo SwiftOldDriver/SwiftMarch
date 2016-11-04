@@ -25,6 +25,9 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ## UI
 [Reusable](https://github.com/AliSoftware/Reusable)
 
+## 自动化
+[fastlane](https://github.com/fastlane/fastlane)
+
 ## Functional Reactive Programming
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 
