@@ -22,8 +22,17 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ## 存储
 [Realm](https://realm.io/cn)
 
+## 图片存储
+[Kingfisher](https://github.com/onevcat/Kingfisher)
+
+## 布局
+[SnapKit](https://github.com/SnapKit/SnapKit)
+
 ## UI
 [Reusable](https://github.com/AliSoftware/Reusable)
+
+## Util
+[SwiftDate](https://github.com/malcommac/SwiftDate)
 
 ## 自动化
 [Fastlane](https://github.com/fastlane/fastlane)
