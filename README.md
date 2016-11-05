@@ -12,7 +12,8 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 # 目录
 
 ## 网络
- [Alamofire](https://github.com/Alamofire/Alamofire)
+###  [Alamofire](https://github.com/Alamofire/Alamofire)
+ swift中使用最广泛的网络库。由大神matt负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。
 
 ## Json解析
 ###[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
