@@ -50,7 +50,7 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 ###[R.swift](https://github.com/mac-cain13/R.swift)
 
 ###[PromiseKit](https://github.com/mxcl/PromiseKit) [![GitHub stars](https://img.shields.io/github/stars/mxcl/PromiseKit.svg)]()
- *Rx之外另一种异步编程的方式，模仿的就是JS的Promises，解决类似JS的回调地狱问题，代码简单易懂没有 RAC 或者 RX上手时间长的困恼。缺点可能就是没有Rx强大。[聊聊 PromiseKit
+ * Rx之外另一种异步编程的方式，模仿的就是JS的Promises，解决类似JS的回调地狱问题，代码简单易懂没有 RAC 或者 RX上手时间长的困恼。缺点可能就是没有Rx强大。[聊聊 PromiseKit
 ](http://swiftcafe.io/2016/07/17/promisekit/)
 
 
