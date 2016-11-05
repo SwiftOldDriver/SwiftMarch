@@ -30,7 +30,8 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 [SnapKit](https://github.com/SnapKit/SnapKit)
 
 ## UI
-[Reusable](https://github.com/AliSoftware/Reusable)
+### [Reusable](https://github.com/AliSoftware/Reusable)
+UITableView必备。更加优雅的实现Cell的Register和Reuse。使用参见：[Reusable-让你放肆的dequeueReusableCell](http://www.jianshu.com/p/255e02337176)
 
 ## Util
 ###[SwiftDate](https://github.com/malcommac/SwiftDate)
