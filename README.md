@@ -13,7 +13,7 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 
 ## 网络
 ###  [Alamofire](https://github.com/Alamofire/Alamofire)
- swift中使用最广泛的网络库。由大神matt负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。
+ swift中使用最广泛的网络库。由大神matt负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。稍微有点遗憾的是官方的swift 3.0版本响应苹果的号召并不支持iOS 8。只有2.3的版本才支持iOS 8。
 
 ## Json解析
 ###[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
@@ -27,11 +27,12 @@ swift发展趋势喜人，github上已经有很多相关的开源项目，也有
 [Kingfisher](https://github.com/onevcat/Kingfisher)
 
 ## 布局
-[SnapKit](https://github.com/SnapKit/SnapKit)
+###[SnapKit](https://github.com/SnapKit/SnapKit)
+如果你使用Autolayout布局，Snapkit就是最好的第三方库。完整的提供了底层的能力。创造性的引入链式编程，让使用起来非常的方便。
 
 ## UI
 ### [Reusable](https://github.com/AliSoftware/Reusable)
-UITableView必备。更加优雅的实现Cell的Register和Reuse。使用参见：[Reusable-让你放肆的dequeueReusableCell](http://www.jianshu.com/p/255e02337176)
+UITableView必备。更加优雅的实现Cell的Register和Reuse。使用参见：[Reusable-让你放肆的dequeueReusableCell](http://www.jianshu.com/p/255e02337176)。
 
 ## Util
 ###[SwiftDate](https://github.com/malcommac/SwiftDate)
