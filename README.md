@@ -32,7 +32,7 @@ swift 发展趋势喜人，github 上已经有很多相关的开源项目，也�
 
 ## UI
 ### [Reusable](https://github.com/AliSoftware/Reusable)
-UITableView必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用参见：[Reusable-让你放肆的dequeueReusableCell](http://www.jianshu.com/p/255e02337176)。
+UITableView必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用参考：[Reusable-让你放肆的dequeueReusableCell](http://www.jianshu.com/p/255e02337176)。
 
 ## Util
 ###[SwiftDate](https://github.com/malcommac/SwiftDate)
@@ -43,6 +43,7 @@ UITableView必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用�
 提供了一系列对于 Swift 标准库、方法与 UIKit 的扩展，让你更加简单舒服地编写代码。
 
 ###[R.swift](https://github.com/mac-cain13/R.swift)
+配置稍微有一点复杂，然而付出的努力对于项目而言是值得的。R.swfit 会根据项目文件在编译期生成各种资源文件的枚举，比如 nib 、UIImage 等。大幅度减少了使用资源文件时输入字符串的这种痛苦。有一个缺点就是这个库只适合使用在纯 swift 项目中。可以参考：[R.swift:以一种优雅安全的方式使用资源文件](http://www.jianshu.com/p/b453b78c7126)。
 
 ## 加密
 [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
