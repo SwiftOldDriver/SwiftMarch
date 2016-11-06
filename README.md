@@ -118,6 +118,9 @@ MonkeyKing 目前支持的功能：
 ## Debug
 ###[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
 
+###[CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
+OC 时代最好用的记录日志的开源库。现在同时有 OC 版和 swift 版本提供。
+
 ## 自动化
 ###[Fastlane](https://github.com/fastlane/fastlane)
 iOS 中最好用的自动化工具。提供了获取证书、运行自动化测试、上传至 TestFlight 和 AppStore 等功能。配置简单，社区强大，具体的功能可以到这个网站查看：[fastlane.tools](https://fastlane.tools/)。
