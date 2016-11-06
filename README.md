@@ -68,7 +68,7 @@ Kingfisher 是 Swift 中使用比较广泛的图片存储库。由喵神 onevcat
 
 目前支持 iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+，Swift 3 (Kingfisher 3.x), Swift 2.3 (Kingfisher 2.x)。
 
-关于 Kingfisher 的使用，详细请看这篇[文档](https://github.com/onevcat/Kingfisher/wiki)
+关于 Kingfisher 的使用，详细请看这篇[文档](https://github.com/onevcat/Kingfisher/wiki)。
 
 ## 布局
 ### [SnapKit](https://github.com/SnapKit/SnapKit)
@@ -113,6 +113,7 @@ MonkeyKing 目前支持的功能：
 
 ## 加密
 ###[CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
+非常流行的加密解密库，项目配有完善的单元测试，可以放心使用。
 
 ## Debug
 ###[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
