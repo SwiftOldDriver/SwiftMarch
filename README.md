@@ -58,7 +58,7 @@ Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）
 
 - 多类容器 (RLMArray 以及 RLMResults)
 
-10. Realm 不支持集合类型
+10. Realm 不能支持原生的集合类型，比如NSArray，NSMutableArray，NSDictionary，NSMutableDictionary,NSSet,NSMutableSet。但是可以使用 Realm 里面给的集合类型 RLMArray(OC)，List(Swift)。
 
 更多的具体分析，请前往[Realm数据库 从入门到“放弃”](http://www.jianshu.com/p/50e0efb66bdf)。
 
