@@ -7,7 +7,7 @@ Swift 发展趋势喜人，Github 上已经有很多相关的开源项目，也�
 
 # 加入我们
 这是一个完全松散的组织，加入的条件很简单：使用 Swift 开发的优秀程序员并且愿意分享知识。我们有个 QQ 群，会在里面交流在 Swift 开发遇到的各种问题。
-加入方式在微博上私信发一段介绍给[冰霜 @halffrost]( http://weibo.com/u/1936502837) 或者 [@Onetaway](http://weibo.com/u/1683298872)。
+加入方式在微博上私信发一段介绍给 [冰霜 @halffrost](http://weibo.com/u/1936502837) 或者 [@Onetaway](http://weibo.com/u/1683298872)。
 
 # 目录
 
@@ -23,6 +23,7 @@ Swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。�
 ## 存储
 ### [Realm](https://realm.io/cn)  
 Realm 是由于 Realm 团队开源的数据库。Realm 不基于 ORM，也不基于 SQLite 创建，而是为移动开发者定制的全功能数据库。它可以将原生对象直接映射到Realm的数据库引擎（远不仅是一个键值对存储）中。 Realm 是一个 MVCC 数据库 ，数据库底层由 C++ 编写而成。 
+
 Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability），一个支持事务（Transaction）的数据库，必需要具有这四种特性。Realm 都已经全部满足。
 
 **关于 Realm 的碾压级的性能**，可以看这篇文章的介绍[移动端数据库新王者：realm](http://www.jianshu.com/p/2b4388cf2a2d)。   
@@ -50,7 +51,10 @@ Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）
 
  Realm 没有线程/进程安全的自动增长属性机制，这在其他数据库中常常用来产生主键。
 
-9. 所有的数据模型必须直接继承自 RealmObject。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：
+9. Realm 不支持集合类型
+
+
+10. 所有的数据模型必须直接继承自 RealmObject。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：
 
  - 多态类之间的转换（例如子类转换成子类，子类转换成父类，父类转换成子类等）
  
@@ -58,7 +62,7 @@ Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）
  
  - 多类容器 (RLMArray 以及 RLMResults)
 
-10. Realm 不支持集合类型
+
 
 更多的具体分析，请前往[Realm数据库 从入门到“放弃”](http://www.jianshu.com/p/50e0efb66bdf)。
 
