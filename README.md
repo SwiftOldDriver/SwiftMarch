@@ -6,14 +6,14 @@ swift 发展趋势喜人，github 上已经有很多相关的开源项目，也�
 如果你觉得某个开源库很棒而我们遗漏了可以开 PR 给我们，或者对我们公布的某些库有独到的评价可以通过PR告诉我们，我们会尽快处理。
 
 # 加入我们
-这是一个完全松散的组织，加入的条件很简单：使用 swift 开发的优秀程序员并且愿意分享知识。我们有个 QQ 群，会在里面交流在swift开发遇到的各种问题。
+这是一个完全松散的组织，加入的条件很简单：使用 swift 开发的优秀程序员并且愿意分享知识。我们有个 QQ 群，会在里面交流在 swift 开发遇到的各种问题。
 加入方式在微博上私信发一段介绍给[冰霜 @halffrost]( http://weibo.com/u/1936502837) 或者 [@Onetaway](http://weibo.com/u/1683298872)。
 
 # 目录
 
 ## 网络
 ###  [Alamofire](https://github.com/Alamofire/Alamofire)
- swift中使用最广泛的网络库。由大神matt负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。稍微有点遗憾的是官方的 swift 3.0版本响应苹果的号召并不支持 iOS 8。只有2.3的版本才支持 iOS 8。
+ swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。稍微有点遗憾的是官方的 swift 3.0 版本响应苹果的号召并不支持 iOS 8。只有 2.3 的版本才支持 iOS 8。
 
 ## Json解析
 ###[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
