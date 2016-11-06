@@ -84,28 +84,7 @@ UITableView 必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用
 ### [SwiftDate](https://github.com/malcommac/SwiftDate)
 
 ### [MonkeyKing](https://github.com/nixzhu/MonkeyKing)
-MonkeyKing 帮助开发者快速集成国内主流社交应用的分享、授权、支付等功能。重要的是，不需要集成各种官方 SDK。
-
-MonkeyKing 目前支持的功能：
-
-- 微信：
-  - 分享文本、图片、链接、视频、音乐
-  - 应用授权，并支持短信授权
-  - 支付
-
-- 微博：
-  - 分享文本、图片、链接
-  - 应用授权、网页授权
-
-- QQ：
-- 分享文本、图片、链接、文件
-- 应用授权、网页授权
-
-- 支付宝：
-- 分享文本、图片、链接
-- 支付
-
-总结：可用于生产环境、轻量级，能满足绝大部分的分享、授权、支付等需求。
+MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博、QQ、支付宝)的分享、授权、支付等功能。重要的是，不需要集成各种官方 SDK。目前由 4 名程序员维护。可用于生产环境、轻量级，能满足绝大部分的分享、授权、支付等需求。
 
 ###[EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)
 提供了一系列对于 Swift 标准库、方法与 UIKit 的扩展，让你更加简单舒服地编写代码。
