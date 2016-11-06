@@ -59,7 +59,10 @@ Realm 没有线程/进程安全的自动增长属性机制，这在其他数据�
 具体的可以看这篇文章里面的分析[Realm数据库 从入门到“放弃”](http://www.jianshu.com/p/50e0efb66bdf)。
 
 ## 图片存储
-[Kingfisher](https://github.com/onevcat/Kingfisher)
+###[Kingfisher](https://github.com/onevcat/Kingfisher)  
+ Kingfisher 是 Swift 中使用比较广泛的图片存储的库。由喵神 onevcat 开源的。 Kingfisher 是一个轻量级的，纯 Swift 语言编写的。目的是为了解决从网络上下载图片和缓存图片的问题。这个库的灵感来自于 SDWebImage 。目前支持 iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+，Swift 3 (Kingfisher 3.x), Swift 2.3 (Kingfisher 2.x)。
+ 
+关于 Kingfisher 的使用，详细请看这篇[文档](https://github.com/onevcat/Kingfisher/wiki)
 
 ## 布局
 ###[SnapKit](https://github.com/SnapKit/SnapKit)
