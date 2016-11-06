@@ -53,7 +53,7 @@ UITableView必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用�
 
 ## 自动化
 [Fastlane](https://github.com/fastlane/fastlane)
-iOS 中最好用的自动化工具。提供了获取证书、运行自动化测试、上传至TestFlight和AppStore等功能。配置简单，社区强大，具体的功能可以到这个网站查看：[fastlane.tools](https://fastlane.tools/)。
+iOS 中最好用的自动化工具。提供了获取证书、运行自动化测试、上传至 TestFlight 和 AppStore 等功能。配置简单，社区强大，具体的功能可以到这个网站查看：[fastlane.tools](https://fastlane.tools/)。
 
 ## Functional Reactive Programming
 ###[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
