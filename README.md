@@ -40,6 +40,7 @@ UITableView必备。更加优雅的实现Cell的Register和Reuse。使用参见�
 ###[MonkeyKing](https://github.com/nixzhu/MonkeyKing)
 
 ###[EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)
+提供了一系列对于 Swift 标准库、方法与 UIKit 的扩展，让你更加简单舒服地编写代码。
 
 ###[R.swift](https://github.com/mac-cain13/R.swift)
 
