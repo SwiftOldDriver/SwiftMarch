@@ -50,15 +50,17 @@ Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）
 
  Realm 没有线程/进程安全的自动增长属性机制，这在其他数据库中常常用来产生主键。
 
-9. 所有的数据模型必须直接继承自 RealmObject。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：
+9. Realm不能支持原生的集合类型，比如NSArray，NSMutableArray，NSDictionary，NSMutableDictionary,NSSet,NSMutableSet。但是可以使用 Realm 里面给的集合类型 RLMArray(OC)，List(Swift)。
+
+10. 所有的数据模型必须直接继承自 RealmObject。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：  
 
 - 多态类之间的转换（例如子类转换成子类，子类转换成父类，父类转换成子类等）
 
 - 同时对多个类进行检索
 
-- 多类容器 (RLMArray 以及 RLMResults)
+- 多类容器 (RLMArray 以及 RLMResults)  
 
-10. Realm 不能支持原生的集合类型，比如NSArray，NSMutableArray，NSDictionary，NSMutableDictionary,NSSet,NSMutableSet。但是可以使用 Realm 里面给的集合类型 RLMArray(OC)，List(Swift)。
+
 
 更多的具体分析，请前往[Realm数据库 从入门到“放弃”](http://www.jianshu.com/p/50e0efb66bdf)。
 
