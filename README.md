@@ -22,7 +22,7 @@ Swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。�
 
 ## 存储
 ### [Realm](https://realm.io/cn)  
-Realm 是由硅谷创业公司发布的一款可以用于 iOS (同样适用于 Swift & Objective-C )和 Android 的跨平台移动数据库。支持的平台包括 Java，Objective-C，Swift，React Native，Xamarin。是第一个专门针对移动平台的数据库，立志取代 SQLite 、CoreData。核心数据引擎由 C++ 开发，有着优异的性能。简单易用可以快速上手，在数据存储时再也不用思考烦人的底层技术细节。
+Realm 是由硅谷创业公司发布的一款可以用于 iOS 和 Android 的跨平台移动数据库。支持的平台包括 Java，Objective-C，Swift，React Native，Xamarin。是第一个专门针对移动平台的数据库，立志取代 SQLite 、CoreData。核心数据引擎由 C++ 开发，有着优异的性能。简单易用可以快速上手，在数据存储时再也不用思考烦人的底层技术细节。
 
 基于技术选型的限制，目前 Realm 使用中也有一些明显的不便：
 -  Realm 没有自动增长属性
