@@ -113,6 +113,9 @@ iOS 中最好用的自动化工具。提供了获取证书、运行自动化测�
 
 ## 代码分析
 ###[SwiftLint](https://github.com/realm/SwiftLint)
+Realm 出品的 Swift 代码规范检测工具。深度嵌入 Clang 和 SourceKit，可以监测整个项目的代码风格。如果有不符合规范之处，SwiftLint会报出相应警告⚠️。当然为了方便和特殊情况，也可在相应代码处手动关闭警告，或是在整个项目中关闭警告，十分灵活。
+
+代码规范请参考：[Swift Style Guide](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)
 
 # Thanks
 [awesome-ios](https://github.com/vsouza/awesome-ios)
