@@ -22,45 +22,37 @@ Swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。�
 
 ## 存储
 ### [Realm](https://realm.io/cn)  
-Realm 是由硅谷 Realm 团队开源的数据库。Realm 不基于 ORM，也不基于 SQLite 创建，而是为移动开发者定制的全功能数据库。它可以将原生对象直接映射到Realm的数据库引擎（远不仅是一个键值对存储）中。 Realm 是一个 MVCC 数据库 ，数据库底层由 C++ 编写而成。 
-Realm 满足 ACID 模型。原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）、持久性（Durability），一个支持事务（Transaction）的数据库，必需要具有这四种特性。Realm 都已经全部满足。
+Realm 是由硅谷创业公司发布的一款可以用于 iOS (同样适用于 Swift & Objective-C )和 Android 的跨平台移动数据库。支持的平台包括 Java，Objective-C，Swift，React Native，Xamarin。是第一个专门针对移动平台的数据库，立志取代 SQLite 、CoreData。核心数据引擎由 C++ 开发，有着优异的性能。简单易用可以快速上手，在数据存储时再也不用思考烦人的底层技术细节。
 
-**关于 Realm 的碾压级的性能**，可以看这篇文章的介绍[移动端数据库新王者：realm](http://www.jianshu.com/p/2b4388cf2a2d)。   
+基于技术选型的限制，目前 Realm 使用中也有一些明显的不便：
+-  Realm 没有自动增长属性。
+
+    Realm 没有线程/进程安全的自动增长属性机制，这在其他数据库中常常用来产生主键
+
+-  所有的数据模型必须直接继承自 RealmObject 。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：  
+
+   - 多态类之间的转换（例如子类转换成子类，子类转换成父类，父类转换成子类等）
+   - 同时对多个类进行检索
+   - 多类容器 (RLMArray 以及 RLMResults)  
+
+-  NSData 以及 NSString 属性不能保存超过 16 MB 大小的数据
+
+-  不能自定义 getter、setter
+    realm会自动生成 getter、setter ，如果自定义 getter 、setter 存储就会有影响。如果要规避这个问题，可以通过设置这个对象的忽略属性。
+
+-  查询的结果不是数组
+
+   为了能够支持查询结果的链式查询，realm 自定义了一个集合类型。可以枚举，但是不是熟悉的数组了。又因为realm的懒加载机制，所以不建议在数据层把这个枚举转成数组类型。这样的缺点就是上层知道了数据的存储逻辑。严格的说这里不应该让上层知道。但是这样设计也许是为了方便上层进行再次检索，realm有着优越的查询性能。
+
+-  尽管 Realm 文件可以被多个线程同时访问，但是您不能跨线程处理 Realms、Realm 对象、查询和查询结果
+
+-  Realm不能支持原生的集合类型，比如：NSArray 、NSDictionary 、NSSet 等。需要使用 Realm 里面提供的集合类型 RLMArray(OC)，List(Swift)
+
+
+
+关于 Realm 的基本情况介绍，可以看这篇文章：[移动端数据库新王者：realm](http://www.jianshu.com/p/2b4388cf2a2d)。   
+
 **关于 Realm 的详细使用**，可以查看[官方文档](https://realm.io/docs/swift/latest/)。
-
-虽说 Realm 的性能很强，但是目前最新版本依旧有一些限制，需要你考虑，这将是决定你是否能优雅的切换到 Realm 数据库的关键。目前最新版本是 2.0.3，有以下的一些限制： 
-
-1. 类名称的长度最大只能存储 57 个 UTF8 字符。
-
-2. 属性名称的长度最大只能支持 63 个 UTF8 字符。
-
-3. NSData 以及 NSString 属性不能保存超过 16 MB 大小的数据。
-
-4. 对字符串进行排序以及不区分大小写查询只支持“基础拉丁字符集”、“拉丁字符补充集”、“拉丁文扩展字符集 A” 以及”拉丁文扩展字符集 B“（UTF-8 的范围在 0~591 之间）。
-
-5. 尽管 Realm 文件可以被多个线程同时访问，但是您不能跨线程处理 Realms、Realm 对象、查询和查询结果。
-
-6. Realm 对象的 Setters & Getters 不能被重载
-
-7. 文件大小 & 版本跟踪
-
- 如果您从 Realm 读取了一些数据并进行了在一个锁定的线程中进行长时间的运行，然后在其他线程进行读写 Realm 数据库的话，那么版本将不会被更新，Realm 将保存中间版本的数据，但是这些数据已经没有用了，这导致了文件大小的增长。这部分空间会在下次写入操作时被重复利用。这些操作可以通过调用`-writeCopyToPath:error:`来实现。
-
-8. Realm 没有自动增长属性
-
- Realm 没有线程/进程安全的自动增长属性机制，这在其他数据库中常常用来产生主键。
-
-9. Realm不能支持原生的集合类型，比如NSArray，NSMutableArray，NSDictionary，NSMutableDictionary，NSSet，NSMutableSet。但是可以使用 Realm 里面给的集合类型 RLMArray(OC)，List(Swift)。
-
-10. 所有的数据模型必须直接继承自 RealmObject。这阻碍我们利用数据模型中的任意类型的继承。以下是不能完成的：  
-
-- 多态类之间的转换（例如子类转换成子类，子类转换成父类，父类转换成子类等）
-
-- 同时对多个类进行检索
-
-- 多类容器 (RLMArray 以及 RLMResults)  
-
-
 
 更多的具体分析，请前往[Realm数据库 从入门到“放弃”](http://www.jianshu.com/p/50e0efb66bdf)。
 
