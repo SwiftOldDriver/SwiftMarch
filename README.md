@@ -103,8 +103,10 @@ iOS 中最好用的自动化工具。提供了获取证书、运行自动化测�
 ## Functional Reactive Programming
 使用响应式编程框架统一对委托、回调 blocks 、通知 、控件的事件 、KVO 等异步事件的逻辑处理。可以显著的降低代码复杂度，更有效的传达代码意图。任何一个优秀的 iOS 程序员都不会拒绝响应式编程，唯一的缺点可能就是对智商有要求了。
 
+RAC 和 Rx 都有着广泛的使用用户。个人拙见两个库的选择全靠个人偏好，在编程范式上没有区别。
+
 ###[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
-OC 时代最流行的响应式框架。由 github 团队开源。如果项目是从 OC 迁移到 swift 的，继续使用 RAC 是一个非常自然的选择。因此 RAC 有着广泛的社区支持。从  5.0 开始主要框架逻辑已经全由 swift 实现。
+OC 时代最流行的响应式框架。由 github 团队开源。如果项目是从 OC 迁移到 swift 的，继续使用 RAC 是一个非常自然的选择。因此 RAC 有着广泛的社区支持。从  5.0 开始主要框架逻辑已经全由 swift 实现。与 RxSwift 编程模型最大的区别是冷热信号由两种类型表示。
 
 ###[RxSwift](https://github.com/ReactiveX/RxSwift)
 
