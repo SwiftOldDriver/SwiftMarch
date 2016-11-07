@@ -82,6 +82,7 @@ UITableView 必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用
 
 ## Util
 ### [SwiftDate](https://github.com/malcommac/SwiftDate)
+非常好用的帮助处理 Date 相关的库。灵活运用了 swift 的重载操作符、扩展等特性，使得时间可以直观的进行算术运算：比较大小，直接加减等。常见的时间也字符串的转换也做了良好的支持。
 
 ### [MonkeyKing](https://github.com/nixzhu/MonkeyKing)
 MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博、QQ、支付宝)的分享、授权、支付等功能。重要的是，不需要集成各种官方 SDK。目前由 4 名程序员维护。可用于生产环境、轻量级，能满足绝大部分的分享、授权、支付等需求。
