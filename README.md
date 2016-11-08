@@ -93,6 +93,7 @@ MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博�
 
 ## Debug
 ###[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
+由于 Swift 本身不包含 C 的预编译器，导致开发者不能使用在 OC 中定义过的宏定义进行调试打印。简单的打印调用栈的信息，又会漏掉很多有用信息。想要解决这个问题又需要加入更多的代码。基于这个目的， XCGLogger 给纯的 Swift 项目带来了解决方案。 XCGLogger 允许你在控制台记录任何细节，使用起来极其简单，和使用 nslog() 或 print() 一样方便。 XCGLogger 可以打印任何信息，甚至可以打印日期、函数名、文件名和行号等等。
 
 ###[CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 OC 时代最好用的记录日志的开源库。现在同时有 OC 版和 swift 版本提供。
