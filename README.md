@@ -111,6 +111,7 @@ RAC 和 Rx 都有着广泛的使用用户。个人拙见两个库的选择全靠
 OC 时代最流行的响应式框架。由 github 团队开源。如果项目是从 OC 迁移到 swift 的，继续使用 RAC 是一个非常自然的选择。因此 RAC 有着广泛的社区支持。从  5.0 开始主要框架逻辑已经全由 swift 实现。与 RxSwift 编程模型最大的区别是冷热信号由两种类型表示。
 
 ###[RxSwift](https://github.com/ReactiveX/RxSwift)
+函数响应式编程 (Funtional Reactive Programming) 系列 ReactiveX 的 Swift 版本开源框架。推出时间较晚，其思路与 ReactiveCocoa 相近，它们的共同祖先是微软的 ReactiveExtensions，本质核心就是面向数据流编程。
 
 ## 代码分析
 ###[SwiftLint](https://github.com/realm/SwiftLint)
