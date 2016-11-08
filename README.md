@@ -22,6 +22,8 @@ SwiftyJSON 应该算是最老牌的 JSON 解析库之一，安全快捷又不啰
 ### [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper)
 JSON 解析是 iOS 开发中再常见不过的了，也许你只听过上面星星很多的 SwiftyJSON，但是我相信你用过 ObjectMapper 后一定会喜欢上它的。首先 ObjectMapper 使用起来非常简洁，配合 [JSON Export](https://github.com/Ahmed-Ali/JSONExport) 使用，你完全不需要在嵌套的 JSON 数据里摸不着北，它还支持结构体和自定义转换。同时，ObjectMapper 还遵守面向协议编程的范式，你的 Model 只需要实现 Mappable 协议就可以了，这会让你的代码更 Swifty。如果你想让你的 Model 看起来既优雅又清爽，那么我建议你一定要试一试这个库。
 
+这是 ObjectMapper 的[中文文档翻译]( https://github.com/lacklock/ObjectMapper-CN-Guide)。
+
 ## 存储
 ### [Realm](https://realm.io/cn)  
 Realm 是由硅谷创业公司发布的一款可以用于 iOS 和 Android 的跨平台移动数据库。支持的平台包括 Java，Objective-C，Swift，React Native，Xamarin。是第一个专门针对移动平台的数据库，立志取代 SQLite 、CoreData。核心数据引擎由 C++ 开发，有着优异的性能。简单易用可以快速上手，在数据存储时再也不用思考烦人的底层技术细节。
@@ -41,11 +43,11 @@ Realm 是由硅谷创业公司发布的一款可以用于 iOS 和 Android 的跨
 
 -  不能自定义 getter、setter
 
-       realm会自动生成 getter、setter ，如果自定义 getter 、setter 存储就会有影响。如果要规避这个问题，可以通过设置这个对象的忽略属性。
+          realm会自动生成 getter、setter ，如果自定义 getter 、setter 存储就会有影响。如果要规避这个问题，可以通过设置这个对象的忽略属性。
 
 -  查询的结果不是数组
 
-      为了能够支持查询结果的链式查询，realm 自定义了一个集合类型。可以枚举，但是不是熟悉的数组了。又因为realm的懒加载机制，所以不建议在数据层把这个枚举转成数组类型。这样的缺点就是上层知道了数据的存储逻辑。严格的说这里不应该让上层知道。但是这样设计也许是为了方便上层进行再次检索，realm有着优越的查询性能。
+         为了能够支持查询结果的链式查询，realm 自定义了一个集合类型。可以枚举，但是不是熟悉的数组了。又因为realm的懒加载机制，所以不建议在数据层把这个枚举转成数组类型。这样的缺点就是上层知道了数据的存储逻辑。严格的说这里不应该让上层知道。但是这样设计也许是为了方便上层进行再次检索，realm有着优越的查询性能。
 
 -  尽管 Realm 文件可以被多个线程同时访问，但是您不能跨线程处理 Realms、Realm 对象、查询和查询结果
 
