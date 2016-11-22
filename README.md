@@ -13,7 +13,7 @@ Swift 发展趋势喜人，Github 上已经有很多相关的开源项目，也�
 
 ## 网络
 ### [Alamofire](https://github.com/Alamofire/Alamofire)
-Swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。稍微有点遗憾的是官方的 Swift 3.0 版本响应苹果的号召并不支持 iOS 8。只有 2.3 的版本才支持 iOS 8。
+Swift 中使用最广泛的网络库。由大神 matt 负责，值得信赖。可以看介绍：[全身心拥抱开源的开发者 Mattt Thompson](https://github.com/ipader/SwiftGuide/wiki/全身心拥抱开源的开发者-Mattt-Thompson)。需要提醒的是 4.1.0 的版本支持 iOS 8 ， 4.0 的版本只支持 iOS 9 。
 
 ## JSON 解析
 ### [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
