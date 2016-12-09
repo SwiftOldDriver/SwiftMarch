@@ -94,6 +94,10 @@ MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博�
 ###[CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
 非常流行的加密解密库，项目配有完善的单元测试，可以放心使用。
 
+###[KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+轻量级 Keychain 封装,简单到极致的接口。支持 TouchID 与 Keychain 整合，详细、优雅、简明的 README。Objective-C 版本在[这里](https://github.com/soffes/SAMKeychain)
+
+
 ## Debug
 ###[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
 由于 Swift 本身不包含 C 的预编译器，导致开发者不能使用在 OC 中定义过的宏定义进行调试打印。简单的打印调用栈的信息，又会漏掉很多有用信息。想要解决这个问题又需要加入更多的代码。基于这个目的， XCGLogger 给纯的 Swift 项目带来了解决方案。 XCGLogger 允许你在控制台记录任何细节，使用起来极其简单，和使用 nslog() 或 print() 一样方便。 XCGLogger 可以打印任何信息，甚至可以打印日期、函数名、文件名和行号等等。
