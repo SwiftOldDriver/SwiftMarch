@@ -96,6 +96,9 @@ MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博�
 ###[R.swift](https://github.com/mac-cain13/R.swift)
 配置稍微有一点复杂，然而付出的努力对于项目而言是值得的。R.swfit 会根据项目文件在编译期生成各种资源文件的枚举，比如 nib 、UIImage 等。大幅度减少了使用资源文件时输入字符串的这种痛苦。有一个缺点就是这个库只适合使用在纯 Swift 项目中。可以参考：[R.swift:以一种优雅安全的方式使用资源文件](http://www.jianshu.com/p/b453b78c7126)。
 
+###[SwiftyAttributes](https://github.com/eddiekaiger/SwiftyAttributes)
+先进的 API ，操作 attributed 字符串的利器。
+
 ## 加密
 ###[CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
 非常流行的加密解密库，项目配有完善的单元测试，可以放心使用。
