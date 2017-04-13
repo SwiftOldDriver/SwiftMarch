@@ -91,15 +91,15 @@ UITableView 必备。更加优雅的实现 Cell 的 Register 和 Reuse 。使用
 MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博、QQ、支付宝)的分享、授权、支付等功能。重要的是，不需要集成各种官方 SDK。目前由 4 名程序员维护。可用于生产环境、轻量级，能满足绝大部分的分享、授权、支付等需求。
 
 
-###[EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)
+### [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions)
 提供了一系列对于 Swift 标准库、方法与 UIKit 的扩展，让你更加简单舒服地编写代码。
 
 
-###[R.swift](https://github.com/mac-cain13/R.swift)
+### [R.swift](https://github.com/mac-cain13/R.swift)
 配置稍微有一点复杂，然而付出的努力对于项目而言是值得的。R.swfit 会根据项目文件在编译期生成各种资源文件的枚举，比如 nib 、UIImage 等。大幅度减少了使用资源文件时输入字符串的这种痛苦。有一个缺点就是这个库只适合使用在纯 Swift 项目中。可以参考：[R.swift:以一种优雅安全的方式使用资源文件](http://www.jianshu.com/p/b453b78c7126)。
 
 
-###[SwiftyAttributes](https://github.com/eddiekaiger/SwiftyAttributes)
+### [SwiftyAttributes](https://github.com/eddiekaiger/SwiftyAttributes)
 先进的 API ，操作 attributed 字符串的利器。
 
 
@@ -112,14 +112,14 @@ MonkeyKing 帮助开发者快速集成国内主流社交应用(微信、微博�
 
 
 ## Debug
-###[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
+### [XCGLogger](https://github.com/DaveWoodCom/XCGLogger)
 由于 Swift 本身不包含 C 的预编译器，导致开发者不能使用在 OC 中定义过的宏定义进行调试打印。简单的打印调用栈的信息，又会漏掉很多有用信息。想要解决这个问题又需要加入更多的代码。基于这个目的， XCGLogger 给纯的 Swift 项目带来了解决方案。 XCGLogger 允许你在控制台记录任何细节，使用起来极其简单，和使用 nslog() 或 print() 一样方便。 XCGLogger 可以打印任何信息，甚至可以打印日期、函数名、文件名和行号等等。
 
-###[CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
+### [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 OC 时代最好用的记录日志的开源库。现在同时有 OC 版和 swift 版本提供。
 
 ## 自动化
-###[Fastlane](https://github.com/fastlane/fastlane)
+### [Fastlane](https://github.com/fastlane/fastlane)
 iOS 中最好用的自动化工具。提供了获取证书、运行自动化测试、上传至 TestFlight 和 AppStore 等功能。配置简单，社区强大，具体的功能可以到这个网站查看：[fastlane.tools](https://fastlane.tools/)。
 
 ## Functional Reactive Programming
@@ -127,10 +127,10 @@ iOS 中最好用的自动化工具。提供了获取证书、运行自动化测�
 
 RAC 和 Rx 都有着广泛的使用用户。个人拙见两个库的选择全靠个人偏好，在编程范式上没有区别。
 
-###[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
+### [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 OC 时代最流行的响应式框架。由 github 团队开源。如果项目是从 OC 迁移到 swift 的，继续使用 RAC 是一个非常自然的选择。因此 RAC 有着广泛的社区支持。从  5.0 开始主要框架逻辑已经全由 swift 实现。与 RxSwift 编程模型最大的区别是冷热信号由两种类型表示。
 
-###[RxSwift](https://github.com/ReactiveX/RxSwift)
+### [RxSwift](https://github.com/ReactiveX/RxSwift)
 函数响应式编程 (Funtional Reactive Programming) 系列 ReactiveX 的 Swift 版本开源框架。推出时间较晚，其思路与 ReactiveCocoa 相近，它们的共同祖先是微软的 ReactiveExtensions，本质核心就是面向数据流编程。
 
 ## 代码分析
