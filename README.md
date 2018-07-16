@@ -134,7 +134,7 @@ OC 时代最流行的响应式框架。由 github 团队开源。如果项目是
 函数响应式编程 (Funtional Reactive Programming) 系列 ReactiveX 的 Swift 版本开源框架。推出时间较晚，其思路与 ReactiveCocoa 相近，它们的共同祖先是微软的 ReactiveExtensions，本质核心就是面向数据流编程。
 
 ## 代码分析
-###[SwiftLint](https://github.com/realm/SwiftLint)
+### [SwiftLint](https://github.com/realm/SwiftLint)
 Realm 出品的 Swift 代码规范检测工具。深度嵌入 Clang 和 SourceKit，可以监测整个项目的代码风格。如果有不符合规范之处，SwiftLint会报出相应警告⚠️。当然为了方便和特殊情况，也可在相应代码处手动关闭警告，或是在整个项目中关闭警告，十分灵活。
 
 代码规范请参考：[Swift Style Guide](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)
